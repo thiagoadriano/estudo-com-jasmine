@@ -1,5 +1,5 @@
 // Verifica se o método foi chamado a quantidade de vezes informada
-describe("Teste do spy toHaveBeenCalled", function() {
+describe("Teste do spy toHaveBeenCalledTimes", function() {
     var Calculadora = {
         somar: function(n1, n2) {
             return n1 + n2;
